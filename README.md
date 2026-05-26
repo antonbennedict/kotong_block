@@ -1,34 +1,27 @@
 🛑 Kotong-Block
-Eliminating roadside corruption through transparent, blockchain-based traffic enforcement.
+A Decentralized Anti-Corruption Framework for Traffic Enforcement in the Philippines.
 
-🇵🇭 The Problem: "Kotong" Culture
-In the Philippines, traffic enforcers often solicit bribes (informally known as "kotong") to avoid issuing official tickets. This happens because:
+## Project Overview
+Kotong-Block is a blockchain-based traffic violation management system designed to eliminate roadside bribery (kotong) in the Philippines. By migrating traffic tickets from manual paper logs to the Stellar Blockchain, we create a transparent ecosystem where enforcers cannot "negotiate" fines and drivers pay the government directly via stablecoins.
 
-Opacity: Fines are issued on paper and can be "negotiated" away.
+## The Trust Gap: Problem Statement
+The current manual ticketing system in the Philippines suffers from three core vulnerabilities:
 
-Inconvenience: Paying official fines often requires a whole day at a City Hall.
+Manual Manipulation: Paper tickets can be discarded or altered in exchange for a bribe.
 
-Lack of Accountability: There is no real-time, public record of violations.
+Lack of Transparency: Motorists have no immediate way to verify the legitimacy of a fine on a public ledger.
 
-This results in millions of pesos in lost government revenue and a breakdown of public trust.
+Frictional Payments: Traditional fine settlement requires physical presence at a City Hall, encouraging "shortcuts" (bribery) to save time.
 
-💡 The Solution
-Kotong-Block is a decentralized ticketing system built on Soroban (Stellar Smart Contracts).
+## Proposed Solution
+We leverage Soroban Smart Contracts to act as a neutral, digital arbiter for road enforcement.
 
-Permanent Logging: When a violation occurs, the enforcer logs it on-chain. It cannot be deleted or modified.
+Immutable Records: Once an enforcer issues a ticket via the contract, the violation is written to the ledger forever. It cannot be deleted.
 
-Direct Payment: Drivers pay fines instantly using PHPT (Stellar PHP Stablecoin).
+Direct-to-Treasury Payments: Drivers use PHPT (Philippine Peso Stablecoins) to pay the contract directly. The enforcer never touches the cash.
 
-Automatic Settlement: Funds go directly to the Government Treasury contract—no cash ever touches the enforcer’s hands.
+Instant Clearance: Upon payment verification, the contract updates the driver's status to "Cleared," providing instant digital proof of settlement.
 
-🛠 Features & Stellar Integration
-Soroban Smart Contracts: Governs the issuance, tracking, and settlement of tickets.
-
-PHPT Assets: Ensures price stability and ease of use for Filipino motorists.
-
-Permanent Audit Trail: Every ticket, payment, and clearance is indexed on the Stellar ledger for public auditing.
-
-Trustless Settlement: Eliminates the "middleman" during the payment process.
-
+Contract ID: CCVBLRHNCKC4DQVC5A7BSQMV7SBXG6JH5CGYOSHNWD5IZNYFQZS7HAH4
 Contract ID Link: https://stellar.expert/explorer/testnet/contract/CCVBLRHNCKC4DQVC5A7BSQMV7SBXG6JH5CGYOSHNWD5IZNYFQZS7HAH4
 ![alt text](image-1.png)
