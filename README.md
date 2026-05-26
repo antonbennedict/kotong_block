@@ -17,4 +17,5 @@ soroban contract build
 cargo test
 
 Contract ID: CCVBLRHNCKC4DQVC5A7BSQMV7SBXG6JH5CGYOSHNWD5IZNYFQZS7HAH4
-![alt text](image.png)
+Contract ID Link: https://stellar.expert/explorer/testnet/contract/CCVBLRHNCKC4DQVC5A7BSQMV7SBXG6JH5CGYOSHNWD5IZNYFQZS7HAH4
+![alt text](image-1.png)
